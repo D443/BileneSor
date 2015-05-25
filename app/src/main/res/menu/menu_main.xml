@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/grup_ara" android:title="Grup Ara"
+        android:orderInCategory="1" />
+    <item android:id="@+id/grup_olustur" android:title="Grup Oluştur"
+        android:orderInCategory="2" />
+    <item android:id="@+id/grup_sil" android:title="Grup Sil"
+        android:orderInCategory="3" />
+    <item android:id="@+id/sonuclar" android:title="Sonuçlar"
+        android:orderInCategory="3" />
+</menu>

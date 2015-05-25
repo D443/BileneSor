@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BileneSor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kayit">KayitActivity</string>
+    <string name="title_activity_grup_detay">GrupDetayActivity</string>
+    <string name="title_activity_grup_ara">GrupAraActivity</string>
+    <string name="title_activity_grup_ekle">GrupEkleActivity</string>
+    <string name="title_activity_katilimci_ekle">KatilimciEkleActivity</string>
+    <string name="title_activity_grup_sil">GrupSilActivity</string>
+    <string name="title_activity_grup_ara_goruntule">GrupAraGoruntuleActivity</string>
+    <string name="title_activity_grup_oyla_detay">GrupOylaDetayActivity</string>
+    <string name="title_activity_katilimci_oyla">KatilimciOylaActivity</string>
+    <string name="title_activity_sonuclar">Sonuclar</string>
+    <string name="title_activity_grup_sonuc_detay">GrupSonucDetayActivity</string>
+    <string name="title_activity_grup_sonuc">GrupSonuc</string>
+    <string name="title_activity_grup_katilimci_sonuc_detay">GrupKatilimciSonucDetayActivity
+    </string>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.mg.bilenesor.GrupAraActivity">
+    <item android:id="@+id/gruplarim" android:title="Gruplarım"
+        android:orderInCategory="1" />
+    <item android:id="@+id/grup_olustur" android:title="Grup Oluştur"
+        android:orderInCategory="2" />
+
+</menu>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mg.bilenesor.KatilimciEkleActivity">
+    <item android:id="@+id/grup_ara" android:title="Grup Ara"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/gruplarim" android:title="Gruplarım"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

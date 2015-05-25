@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/isimsoyisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İsim ve soyisim"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textbody"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_guncelle"
+        android:layout_alignTop="@+id/isimsoyisim"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</LinearLayout>

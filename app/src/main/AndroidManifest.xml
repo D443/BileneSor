@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mg.bilenesor" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+    >
+        <activity
+            android:name=".MainActivity"
+            android:label="Gruplarım" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GrupDetayActivity"
+            android:label="Katılımcı Listesi" >
+        </activity>
+        <activity
+            android:name=".GrupAraActivity"
+            android:label="Grup Ara" >
+        </activity>
+        <activity
+            android:name=".GrupEkleActivity"
+            android:label="Grup Ekle" />
+        <activity
+            android:name=".KatilimciEkleActivity"
+            android:label="Katılımcı Ekle" >
+        </activity>
+        <activity
+            android:name=".GrupSilActivity"
+            android:label="Grup Sil" >
+        </activity>
+        <activity
+            android:name=".GrupAraGoruntuleActivity"
+            android:label="Gruplar" >
+        </activity>
+        <activity
+            android:name=".GrupOylaDetayActivity"
+            android:label="Oylanacak Katılımcı" >
+        </activity>
+        <activity
+            android:name=".KatilimciOylaActivity"
+            android:label="Değerlendir" >
+        </activity>
+        <activity
+            android:name=".Sonuclar"
+            android:label="Sonuçlar" >
+        </activity>
+        <activity
+            android:name=".GrupSonucDetayActivity"
+            android:label="Katılımcılar" >
+        </activity>
+        <activity
+            android:name=".GrupSonuc"
+            android:label="@string/title_activity_grup_sonuc" >
+        </activity>
+        <activity
+            android:name=".GrupKatilimciSonucDetayActivity"
+            android:label="Katılımcı Ortalama Puanı" >
+        </activity>
+    </application>
+
+</manifest>
